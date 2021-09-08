@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding: 120px 0 138px 0;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+header p{
+    font-weight: 700;
+    font-size: 18px;
+}
+nav{
+    background-color: #003395;
+    height: 75px;
+}
+nav a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 27px 62px 26px 0;
+    font-size: 18;
+    letter-spacing: 2px;
+}
+main{
+    padding: 57px 0;
+}
+h1{
+    font-weight: 500;
+    color: #003395;
+    font-size: 54px;
+    margin-bottom: 27px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+section{
+    display: inline-block;
+    width: 67%;
+    /* (мне очень хотелось разделить section от aside и поэтому получается некрасивое число, грустно) */
+    margin-right: 30px;
+}
+section div{
+    margin-bottom: 34px;
+}
+section h2{
+    font-size: 27;
+    font-weight: 700;
+    color: #003395;
+    border-top: 2px #003395 solid;
+    border-bottom: 2px #003395 solid;
+    padding: 13px 0;
+    margin-bottom: 16px;
+}
+section p{
+    font-size: 24px;
+}
+aside{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+aside div{
+    border: #33008D solid 2px;
+    padding: 19px;
+    margin-bottom: 56px;
+}
+aside h2{
+    color: white;
+    background-color: #24B0FF;
+    padding: 14px 17px;
+    margin-bottom: 14px;
+}
+aside p{
+    font-size: 16.2px;
+    margin-bottom: 7px;
+    line-height: 26,46px; 
+    /* в фигме стоит line-height 26.46px почему не работет если я задаю здесь?*/
+}
+aside a{
+    display: block;
+    padding: 7px;
+    line-height: 26,46px; 
+    /* тоже самое и с ссылками, сделала паддингом, что б имело вид*/
+}
+footer{
+    padding: 45px 0 83px 0;
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+}
+footer p{
+    color: white;
+    text-align: right;
+    font-size: 11.7px;
+}
